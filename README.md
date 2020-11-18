@@ -38,26 +38,8 @@ Sample command to run by SBT with sample locations of the required arguments
 ```
 sbt "run /mylocation/spec.json /mydata/Kata_FW.txt /mydata/Kata.csv"
 ```
-### Sample spec.json
-Below is sample spec.json file
-```
-{
-    "ColumnNames": [
-        "f1",
-        "f2",
-        "f3",
-        "f4",
-        "f5"
-    ],
-    "Offsets": [
-        "40",
-        "15",
-        "10",
-        "25",
-        "15"
-    ],
-    "FixedWidthEncoding": "windows-1252",
-    "IncludeHeader": "True",
-    "DelimitedEncoding": "utf-8"
-}
-```
+### Sample Files
+Sample files are in _sample_ directory
+* spec.json
+* Kata_FW.txt
+* Kata.csv
